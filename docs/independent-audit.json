@@ -1,0 +1,149 @@
+{
+  "checked_at": "2026-10-23T19:07:35.663500+00:00",
+  "method": "Independent Decimal arithmetic and original source response scan; no backend analysis imports",
+  "source_responses": {
+    "actuals": 1488,
+    "forecasts": 19856
+  },
+  "independent_metrics": {
+    "matched": 744,
+    "mae_mw": 2038.9126344086021,
+    "rmse_mw": 2504.758652899355,
+    "bias_mw": 1747.8870967741937
+  },
+  "api_metrics": {
+    "expected": 744,
+    "matched": 744,
+    "coverage_pct": 100.0,
+    "forecast_available": 744,
+    "actual_available": 744,
+    "mae_mw": 2038.9126344086021,
+    "rmse_mw": 2504.758652899355,
+    "bias_mw": 1747.8870967741937,
+    "max_abs_error_mw": 6870.0,
+    "mean_forecast_mw": 13031.444892473119,
+    "mean_actual_mw": 11283.557795698925,
+    "overforecast_hours": 632,
+    "underforecast_hours": 112
+  },
+  "sample_checks": [
+    {
+      "decision_date": "2026-01-01",
+      "target": "2026-01-02T00:00:00Z",
+      "cutoff": "2026-01-01T09:00:00Z",
+      "selected_publication": "2026-01-01T07:30:00Z",
+      "forecast_mw": 18781,
+      "actual_half_hours_mw": [
+        15228.0,
+        15505.0
+      ],
+      "actual_mean_mw": 15366.5,
+      "error_mw": 3414.5
+    },
+    {
+      "decision_date": "2026-01-01",
+      "target": "2026-01-02T12:00:00Z",
+      "cutoff": "2026-01-01T09:00:00Z",
+      "selected_publication": "2026-01-01T07:30:00Z",
+      "forecast_mw": 17541,
+      "actual_half_hours_mw": [
+        15023.0,
+        14492.0
+      ],
+      "actual_mean_mw": 14757.5,
+      "error_mw": 2783.5
+    },
+    {
+      "decision_date": "2026-01-01",
+      "target": "2026-01-02T23:00:00Z",
+      "cutoff": "2026-01-01T09:00:00Z",
+      "selected_publication": "2026-01-01T07:30:00Z",
+      "forecast_mw": 18313,
+      "actual_half_hours_mw": [
+        14133.0,
+        14202.0
+      ],
+      "actual_mean_mw": 14167.5,
+      "error_mw": 4145.5
+    },
+    {
+      "decision_date": "2026-01-15",
+      "target": "2026-01-16T00:00:00Z",
+      "cutoff": "2026-01-15T09:00:00Z",
+      "selected_publication": "2026-01-15T07:30:00Z",
+      "forecast_mw": 7398,
+      "actual_half_hours_mw": [
+        7477.0,
+        7194.0
+      ],
+      "actual_mean_mw": 7335.5,
+      "error_mw": 62.5
+    },
+    {
+      "decision_date": "2026-01-15",
+      "target": "2026-01-16T12:00:00Z",
+      "cutoff": "2026-01-15T09:00:00Z",
+      "selected_publication": "2026-01-15T07:30:00Z",
+      "forecast_mw": 7779,
+      "actual_half_hours_mw": [
+        8781.0,
+        8752.0
+      ],
+      "actual_mean_mw": 8766.5,
+      "error_mw": -987.5
+    },
+    {
+      "decision_date": "2026-01-15",
+      "target": "2026-01-16T23:00:00Z",
+      "cutoff": "2026-01-15T09:00:00Z",
+      "selected_publication": "2026-01-15T07:30:00Z",
+      "forecast_mw": 9919,
+      "actual_half_hours_mw": [
+        9214.0,
+        9116.0
+      ],
+      "actual_mean_mw": 9165.0,
+      "error_mw": 754.0
+    },
+    {
+      "decision_date": "2026-01-31",
+      "target": "2026-02-01T00:00:00Z",
+      "cutoff": "2026-01-31T09:00:00Z",
+      "selected_publication": "2026-01-31T07:30:00Z",
+      "forecast_mw": 10099,
+      "actual_half_hours_mw": [
+        8724.0,
+        8462.0
+      ],
+      "actual_mean_mw": 8593.0,
+      "error_mw": 1506.0
+    },
+    {
+      "decision_date": "2026-01-31",
+      "target": "2026-02-01T12:00:00Z",
+      "cutoff": "2026-01-31T09:00:00Z",
+      "selected_publication": "2026-01-31T07:30:00Z",
+      "forecast_mw": 6720,
+      "actual_half_hours_mw": [
+        5675.0,
+        5537.0
+      ],
+      "actual_mean_mw": 5606.0,
+      "error_mw": 1114.0
+    },
+    {
+      "decision_date": "2026-01-31",
+      "target": "2026-02-01T23:00:00Z",
+      "cutoff": "2026-01-31T09:00:00Z",
+      "selected_publication": "2026-01-31T07:30:00Z",
+      "forecast_mw": 4915,
+      "actual_half_hours_mw": [
+        5130.0,
+        5302.0
+      ],
+      "actual_mean_mw": 5216.0,
+      "error_mw": -301.0
+    }
+  ],
+  "passed": true
+}
