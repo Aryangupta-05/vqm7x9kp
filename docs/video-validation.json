@@ -1,0 +1,23 @@
+[
+  {
+    "file": "Windward-Part-1-Customer-SILENT.mp4",
+    "frames": 5040,
+    "duration_seconds": 210.0,
+    "bytes": 3166929,
+    "audio": "none - user narration pending"
+  },
+  {
+    "file": "Windward-Part-2-Technical-SILENT.mp4",
+    "frames": 5040,
+    "duration_seconds": 210.0,
+    "bytes": 2161746,
+    "audio": "none - user narration pending"
+  },
+  {
+    "file": "Windward-Full-Walkthrough-SILENT.mp4",
+    "frames": 10080,
+    "duration_seconds": 420.0,
+    "bytes": 5329545,
+    "audio": "none - user narration pending"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-24T01:48:09.262338+05:30",
+  "authentication": "None: fresh urllib requests, no cookies or authorization headers",
+  "frontend": "HTTP 200, correct app title",
+  "backend": {
+    "status": "ok",
+    "snapshot_retrieved_at": "2026-10-23T18:55:00.722350+00:00",
+    "service": "python-fastapi"
+  },
+  "metrics": {
+    "expected": 744,
+    "matched": 744,
+    "coverage_pct": 100.0,
+    "forecast_available": 744,
+    "actual_available": 744,
+    "mae_mw": 2038.9126344086021,
+    "rmse_mw": 2504.758652899355,
+    "bias_mw": 1747.8870967741937,
+    "max_abs_error_mw": 6870.0,
+    "mean_forecast_mw": 13031.444892473119,
+    "mean_actual_mw": 11283.557795698925,
+    "overforecast_hours": 632,
+    "underforecast_hours": 112
+  },
+  "all_selected_publications_at_or_before_cutoff": true,
+  "first_decision": {
+    "early_publication": "2026-01-01T07:30:00Z",
+    "late_publication": "2026-01-01T09:30:00Z"
+  },
+  "month_end_delivery": "2026-02-01",
+  "csv_rows": 744,
+  "public_repository": "HTTP 200, raw README accessible, AI disclosure present",
+  "production_deployment": "dpl_DurUFTc8sqVrN1fN2arRwbC8U8dR",
+  "deployed_application_commit": "1a44f94e3c77ecbd2fa0ba917863f9e81ccf71e6",
+  "passed": true
+}

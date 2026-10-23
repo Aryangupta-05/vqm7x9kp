@@ -60,8 +60,8 @@ Fault injection used work/qa_server.py OUTSIDE this repository on port 8002. It 
 
 - Project vqm7x9kp, prj_0fIplPOvR0HHhoyRxqBGwArKft4U, existing Hobby account; no paid upgrade/database/domain.
 - Production alias: https://vqm7x9kp.vercel.app
-- Application commit: fc3161252625e51243f74497e54934aae82ec540
-- Deployment: dpl_BZwYpYPbA1dyE38hGpPhrycxG6v2, READY; function region lhr1.
+- Application commit: 1a44f94e3c77ecbd2fa0ba917863f9e81ccf71e6
+- Deployment: dpl_DurUFTc8sqVrN1fN2arRwbC8U8dR, READY; function region lhr1.
 - Vercel's final observed dependency/build environment uses CPython 3.14.8, confirmed from the successful build log. The .python-version request is aligned to 3.14; Docker uses Python 3.12 and local tests use Python 3.11. The public Python API is independently verified.
 - Initial dependency-parser failure was fixed by flat pinned runtime requirements. Final public checks passed.
 - Later repository commits add documentation/evidence only; deployed application logic is the commit above.

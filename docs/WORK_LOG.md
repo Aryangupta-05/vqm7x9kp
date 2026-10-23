@@ -1,10 +1,13 @@
 # Work log
 
-Time limit: 16 hours. Work began 24 October 2026, 00:12:30 (session start timestamp) Asia/Calcutta. This log records elapsed sessions, not invented billing precision.
+Assignment limit: at most 16 hours of work.
 
-- 00:12–00:20: requirement/access review, full PDF extraction and visual review, recurring 15-minute automation, official Elexon schema/sample research, domain timing research. Existing GitHub/Vercel sign-ins and public Elexon access verified. Docker started.
-- 00:20 onward: implementation, source snapshot retrieval, regression tests, interface, independent source audit, Docker/build/public deployment checks. Ongoing; final end time and elapsed duration will be recorded after handover.
+First preparation session began 2026-10-24T00:12:30+05:30 (verified session timestamp). App/source/tests/Docker/deployment and silent-video preparation completed by 2026-10-24T01:48:52.407131+05:30. Elapsed wall time: approximately 96.4 minutes, including an unexpected roughly 30-minute browser-download wait. This conservatively includes waiting; it is not a claim of continuous active coding.
 
-Known user-dependent video steps: user requested a silent walkthrough and exact narration for both parts, then will provide their own audio. Sync and unlisted upload follow only after audio and YouTube sign-in are available. A silent MP4 or script alone does not meet the YouTube requirement.
+Work: complete PDF extraction and visual review; official source/domain research; consolidated access check; 15-minute heartbeat; React/Python implementation; real source snapshot; regression tests and independent Decimal audit; browser and fault-state tests; Docker startup; anonymous public repository; Vercel deployment and no-auth checks; two silent video parts, exact voice scripts, media decoding/duration checks; final requirement audit and source packaging.
 
-No form submission, evaluator email, or deliverable sending is authorized.
+No paid service upgrade, database or domain purchase occurred.
+
+Remaining work depends on the author: two voice recordings and a usable YouTube sign-in. Once supplied, record synchronization/upload work as another session. Waiting for the user is not active assignment work. The silent parts are each 3:30 and the combined draft is 7:00; final narration must stay within 5:00 per part and 10:00 overall. No final unlisted YouTube video exists yet.
+
+No submission form, evaluator email or evaluator delivery occurred.
