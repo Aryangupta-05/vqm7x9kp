@@ -41,8 +41,8 @@ const fmt = (n: number | null | undefined, digits = 0) =>
         maximumFractionDigits: digits,
         minimumFractionDigits: digits,
       });
-const signed = (n: number | null | undefined) =>
-  n == null ? "—" : `${n > 0 ? "+" : ""}${fmt(n)}`;
+const signed = (n: number | null | undefined, digits = 0) =>
+  n == null ? "—" : `${n > 0 ? "+" : ""}${fmt(n, digits)}`;
 const dateLabel = (value: string, short = false) =>
   new Date(`${value}T12:00:00Z`).toLocaleDateString("en-GB", {
     day: "numeric",
@@ -247,7 +247,7 @@ function Rows({
                   : "error-negative"
             }
           >
-            {signed(r.error_mw)}
+            {signed(r.error_mw, 1)}
           </span>
         </td>
         <td className="publication">{fullStamp(r.publish_time)}</td>
@@ -782,9 +782,13 @@ export default function App() {
                       label="Forecast bias"
                       value={signed(m?.bias_mw)}
                       detail={
-                        (m?.bias_mw ?? 0) > 0
-                          ? "Wind overforecast on average"
-                          : "Wind underforecast on average"
+                        m?.bias_mw == null
+                          ? "No matched hours to score"
+                          : m.bias_mw === 0
+                            ? "No net signed error"
+                            : m.bias_mw > 0
+                              ? "Wind overforecast on average"
+                              : "Wind underforecast on average"
                       }
                     />
                     <Metric
@@ -798,7 +802,11 @@ export default function App() {
                     <div className="warning-box" role="status">
                       <Info size={17} />
                       <span>
-                        <b>{m.expected - m.matched} hours excluded.</b>{" "}
+                        <b>
+                          {m.expected - m.matched}{" "}
+                          {m.expected - m.matched === 1 ? "hour" : "hours"}{" "}
+                          excluded.
+                        </b>{" "}
                         {m.expected - m.forecast_available} lack an eligible
                         forecast; {m.expected - m.actual_available} lack a
                         complete actual pair. These counts can overlap. No gap
