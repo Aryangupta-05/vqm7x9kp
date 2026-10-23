@@ -6,7 +6,7 @@ A historical decision desk for a UK utility’s day-ahead wind procurement team.
 
 **Repository:** https://github.com/Aryangupta-05/vqm7x9kp
 
-**Video:** pending the author’s two voice recordings, synchronization and unlisted YouTube upload. A silent walkthrough and script do not constitute the final video deliverable. The assignment submission is the author’s action; this project does not submit anything.
+**Video:** two silent visual drafts are prepared (3:30 each, 7:00 combined), with [exact narration scripts](docs/VIDEO_SCRIPT.md). The author will provide two voice recordings for synchronization and unlisted YouTube upload. These drafts and scripts do not constitute the final unlisted video deliverable. The assignment submission is the author’s action; this project does not submit anything.
 
 ## Run with Docker
 
@@ -77,6 +77,7 @@ compose.yaml              One-command local container startup
 vercel.json               React static build, Python function and /api routing
 requirements*.txt         Python production/development dependency inputs
 constraints.txt           Tested exact Python dependency resolution
+.python-version           Requested Vercel Python 3.14 series (observed build: 3.14.8)
 package*.json             Frontend dependency manifest and npm lockfile
 .env.example              Optional configuration placeholders; no secrets needed
 ```
@@ -188,9 +189,9 @@ The static React build and `api/index.py` Python function deploy together. `/api
 From an authenticated Vercel CLI, link to the intended project first and verify its identity:
 
 ```sh
-vercel link --project vqm7x9kp
-vercel project inspect vqm7x9kp
-vercel --prod
+vercel link --project vqm7x9kp --scope aryans-projects-f0d5cb0d
+vercel project inspect vqm7x9kp --scope aryans-projects-f0d5cb0d
+vercel --prod --scope aryans-projects-f0d5cb0d
 ```
 
 Use the linked project’s production alias for the public demo; generated preview/deployment URLs may require Vercel authentication. Public API and frontend access must both be verified. The project is stateless and has no user accounts or private data.

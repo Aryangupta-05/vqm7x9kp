@@ -12,3 +12,7 @@ __pycache__/
 artifacts/
 *.log
 *.tsbuildinfo
+*.mp4
+*.wav
+*.m4a
+*.mp3
