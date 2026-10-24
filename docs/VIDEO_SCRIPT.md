@@ -1,6 +1,6 @@
 # Two-part video narration
 
-Status: silent draft prepared; awaiting the author's real voice recordings before synchronization and unlisted YouTube upload. Each part is planned for 3:30, total 7:00; neither part may exceed 5:00. These are actual verified app views and source diagrams, not fabricated results.
+Status: the author chose a silent final walkthrough, published unlisted at https://youtu.be/xoeCAQSuw3M. Each part is 3:30, total 7:00. The paragraphs below remain optional narration/reference text; there is no recorded narration in the published video. Views and results reflect the verified application.
 
 ## Part 1 · C1: A decision desk for national wind
 

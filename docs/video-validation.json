@@ -1,23 +1,19 @@
-[
-  {
-    "file": "Windward-Part-1-Customer-SILENT.mp4",
-    "frames": 5040,
-    "duration_seconds": 210.0,
-    "bytes": 3166929,
-    "audio": "none - user narration pending"
-  },
-  {
-    "file": "Windward-Part-2-Technical-SILENT.mp4",
-    "frames": 5040,
-    "duration_seconds": 210.0,
-    "bytes": 2161746,
-    "audio": "none - user narration pending"
-  },
-  {
-    "file": "Windward-Full-Walkthrough-SILENT.mp4",
-    "frames": 10080,
-    "duration_seconds": 420.0,
-    "bytes": 5329545,
-    "audio": "none - user narration pending"
-  }
-]
+{
+  "file": "Windward-Full-Walkthrough.mp4",
+  "duration_seconds": 420,
+  "parts_seconds": [
+    210,
+    210
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "audio_streams": 0,
+  "bytes": 5272700,
+  "sha256": "9036e557e774c55b506080dc648ea37e57351641def68fd9e701c2c8478b20da",
+  "authorization": "User requested upload without voice-over on 24 October 2026",
+  "footer": "Silent walkthrough; removed draft and voice-over-pending wording",
+  "youtube_status": "Published unlisted; anonymous availability verified",
+  "youtube_url": "https://youtu.be/xoeCAQSuw3M",
+  "encoded_frame_samples_visually_checked": true
+}

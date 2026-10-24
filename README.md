@@ -6,7 +6,7 @@ A historical decision desk for a UK utility’s day-ahead wind procurement team.
 
 **Repository:** https://github.com/Aryangupta-05/vqm7x9kp
 
-**Video:** two silent visual drafts are prepared (3:30 each, 7:00 combined), with [exact narration scripts](docs/VIDEO_SCRIPT.md). The author will provide two voice recordings for synchronization and unlisted YouTube upload. These drafts and scripts do not constitute the final unlisted video deliverable. The assignment submission is the author’s action; this project does not submit anything.
+**Video:** [Unlisted customer presentation and technical review](https://youtu.be/xoeCAQSuw3M) — **7:00**, with two 3:30 parts. This is a **silent visual walkthrough**, published without voice-over at the author's explicit request. It uses verified app views and actual source/design panels, with scene headings and key points; optional narration text is in [the script](docs/VIDEO_SCRIPT.md). Unlisted visibility and anonymous availability were verified in [the video evidence](docs/youtube-verification.json). The author handles assignment submission.
 
 ## Run with Docker
 

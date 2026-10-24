@@ -8,6 +8,6 @@ Work: complete PDF extraction and visual review; official source/domain research
 
 No paid service upgrade, database or domain purchase occurred.
 
-Remaining work depends on the author: two voice recordings and a usable YouTube sign-in. Once supplied, record synchronization/upload work as another session. Waiting for the user is not active assignment work. The silent parts are each 3:30 and the combined draft is 7:00; final narration must stay within 5:00 per part and 10:00 overall. No final unlisted YouTube video exists yet.
+User-requested verification session around 03:13-03:22 IST reran source, analytical, Docker, browser, package and public-access checks. A further session around 11:21-11:35 IST finalized and published the silent video after the author changed the narration preference. Both parts remain 3:30 and the complete unlisted video is 7:00: https://youtu.be/xoeCAQSuw3M. The upload and anonymous availability are verified. Total active work remains well below the 16-hour limit; overnight waiting was not active work. The timer was deleted at the author's request.
 
 No submission form, evaluator email or evaluator delivery occurred.

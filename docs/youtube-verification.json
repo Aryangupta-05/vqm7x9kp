@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-24T05:57:50.294804+00:00",
+  "video_url": "https://www.youtube.com/watch?v=xoeCAQSuw3M",
+  "authentication": "None; urllib requests without cookies or authorization",
+  "oembed_http_status": 200,
+  "title": "Windward | Day-ahead Wind Decision Support - Customer Demo & Technical Review",
+  "author_name": "Aryan Gupta",
+  "watch_http_status": 200,
+  "playability_status": "OK",
+  "duration_seconds": "420",
+  "video_id": "xoeCAQSuw3M",
+  "is_private": false,
+  "is_unlisted": true,
+  "studio_visibility": "Unlisted",
+  "studio_publication": "Video published",
+  "youtube_checks": "Checks complete. No issues found.",
+  "format": "Silent visual walkthrough; no voice-over, explicitly requested by author",
+  "parts_seconds": [
+    210,
+    210
+  ],
+  "final_local_file": "video/final/Windward-Full-Walkthrough.mp4"
+}

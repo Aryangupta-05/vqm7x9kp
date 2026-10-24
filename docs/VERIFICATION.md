@@ -18,8 +18,8 @@ The three-page requirement PDF was read from beginning to end, extracted and vis
 | README startup and deployed URL | Tested local/build commands, Compose command, public app link | Verified |
 | AI assistance disclosure | README explicitly names OpenAI Codex and its role | Verified |
 | At most 16 hours | Session work log; first preparation session well below limit; future narration work recorded separately | Within limit |
-| Customer and technical video, each <=5 minutes | Two silent visual drafts, each 210.0 seconds; customer and technical scripts | Drafts duration-checked; real voice required |
-| Unlisted YouTube <=10 minutes | Silent combined draft 420.0 seconds; user will supply two voice tracks, then sync/upload | PENDING USER AUDIO AND YOUTUBE SIGN-IN; no YouTube URL |
+| Customer and technical video, each <=5 minutes | Published silent walkthrough has two 210-second parts; author explicitly requested no voice-over | Duration verified; silent format disclosed |
+| Unlisted YouTube <=10 minutes | https://youtu.be/xoeCAQSuw3M; 420 seconds; Studio Unlisted; public player metadata OK without cookies/auth | Verified |
 | Verify links incognito | Fresh isolated in-app browser, no Vercel sign-in, plus no-cookie frontend/API/repo requests | Public access verified; literal incognito controls unavailable |
 | Submission form | Never opened, filled or submitted; no evaluator email or deliverable message sent | User action only |
 
@@ -66,11 +66,15 @@ Fault injection used work/qa_server.py OUTSIDE this repository on port 8002. It 
 - Initial dependency-parser failure was fixed by flat pinned runtime requirements. Final public checks passed.
 - Later repository commits add documentation/evidence only; deployed application logic is the commit above.
 
-## Video evidence and remaining work
+## Published video evidence
 
-Silent 1080p/24fps MP4 drafts use verified production screenshots and actual source/design panels. Each part is 210.0 seconds / 5,040 frames; combined is 420.0 seconds / 10,080 frames. Scripts describe existing behavior and real results, with no generated narration.
+On 24 October 2026 the author changed the earlier narration plan and explicitly requested upload without voice-over. The final silent 1080p/24fps walkthrough removes draft/pending-narration wording. Customer presentation is 3:30; technical review is 3:30; total 7:00. Verified app screenshots and actual source/design panels remain the visual content. No generated voice was added.
 
-The user chose their own voice. After two audio files arrive: retime scenes to natural speech, remove the silent-draft footer, sync/check audio, enforce each part <=5:00 and combined <=10:00, upload unlisted to the authorized YouTube channel, and verify its watch URL without login. These steps remain incomplete; scripts and silent MP4s do not replace them.
+Published unlisted on the author's Aryan Gupta channel: https://youtu.be/xoeCAQSuw3M. YouTube Studio confirmed Video published, saved Unlisted visibility, duration 7:00 and completed checks with no issues found. The author confirmed YouTube's upload acknowledgement before the upload.
+
+Fresh no-cookie/no-authorization requests returned HTTP 200 for both the watch page and oEmbed. Public player metadata reports playability_status OK, lengthSeconds 420, isPrivate false and isUnlisted true. See youtube-verification.json. This verifies anonymous availability without claiming a literal incognito browser profile. The silent format is explicitly disclosed, rather than described as a narrated presentation.
+
+The recurring progress timer was deleted at the author's request. No assignment form or evaluator communication occurred.
 
 ## Verification limits
 
